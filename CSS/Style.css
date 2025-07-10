@@ -17,7 +17,7 @@
 }
 /* Common Style */
 .primary-bg-color {
-    color: #1E1E1E;
+    color: #f5f8ff;
 }
 .primary-color {
     color: #4E47FF;
@@ -46,12 +46,12 @@
    outline: none;
    border: none;
 }
-/* .btn:hover {
+.btn:hover {
     background-color: yellow;
     color: #000;
     transform: scale(1.3);
     transition: all 0.5ms ease-in-out;
-} */
+}
 .pragraph-color{
  color: rgba(50, 36, 50, 0.5);
 }
@@ -178,5 +178,31 @@
 .get-touch-section h3{
     font-size: 75px;
     padding-top: 100px;
+    color: #000000;
 }
 /* End Get In Touch Section */
+/* Start The Footer Section */
+.footer-container{
+    background-color: #fff;
+    padding: 100px 0px;
+}
+.footer-container h2 {
+    font-size: 75px;
+}
+.footer-container p {
+    font-size: 20px;
+}
+.footer-container li {
+    list-style: none;
+}
+.footer-container li a{
+    text-decoration: none;
+     color: rgba(50, 36, 50, 0.5);
+     font-size: 20px;
+}
+.footer-container ul {
+    display: flex;
+    gap: 50px;
+    justify-self: center;
+    padding-top: 20px;
+}
