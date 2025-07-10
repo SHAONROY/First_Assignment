@@ -17,7 +17,7 @@
 }
 /* Common Style */
 .primary-bg-color {
-    color: #f5f8ff;
+   background-color: #f5f8ff;
 }
 .primary-color {
     color: #4E47FF;
@@ -110,7 +110,7 @@
 /* End The Action Section */
 /* Start Productive Users Section */
 .productive-user{
-    width: 1072px;
+    width: 1140px;
     margin: auto;
 }
 .productive-user-container{
@@ -138,10 +138,10 @@
 /* End Productive Users Section */
 /* Start Get In Touch Section */
 .get-touch-container{
-    margin: 100px 150px;
     display: flex;
     gap: 100px;
     justify-content: space-between;
+    padding: 70px 0px;
 }
 .get-touch-section {
     width: 45%;
@@ -181,6 +181,45 @@
     color: #000000;
 }
 /* End Get In Touch Section */
+
+
+
+/* Start The Get Better Section  */
+.get-better-container{
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 70px 0px;
+}
+.get-better-container h2 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #000;
+    padding-bottom: 20px;
+} 
+.get-better-container p {
+    font-size: 15px;
+     color: rgba(50, 36, 50, 0.5);
+     padding-bottom: 20px;
+}
+.get-better-container img {
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* Start The Footer Section */
 .footer-container{
     background-color: #fff;
