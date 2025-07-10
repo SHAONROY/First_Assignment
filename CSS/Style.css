@@ -79,3 +79,26 @@
 .banner button {
     margin-top: 37px;
 }
+/* End The Banner Section */
+/* Start The Action Section */
+.action-container{
+    display: flex;
+    gap: 250px;
+    justify-content: center;
+    padding: 100px 140px;
+}
+.action-text{
+    padding: 60px 0px;
+}
+.action-container img{
+    border-radius: 48px;
+}
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+}
+.action-description{
+    font-size: 20px;
+    padding: 23px 0px;
+}
+/* End The Action Section */
