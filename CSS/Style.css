@@ -10,14 +10,14 @@
   font-style: normal;
 }
 /* Common Style */
-.primary-color {
+.primary-bg-color {
     color: #1E1E1E;
 }
-.secondary-color {
+.primary-color {
     color: #4E47FF;
 }
 .primary-text-color{
-    color: #000000;
+    color: #252432;
 }
 .secondary-text-color {
     color: 252432;
@@ -49,6 +49,14 @@
 .pragraph-color{
  color: rgba(50, 36, 50, 0.5);
 }
+/* Start The header Section */
+.header-container {
+    background-image: url(../Assets/Hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* End The header Section */
 /* Start The Nav Section Style  */
 .nav-container{
     display: flex;
@@ -60,3 +68,14 @@
     font-weight: bold;
 }
 /* End The Nav Section Style  */
+/* Start The Banner Section */
+.banner{
+    padding: 150px 100px;
+}
+.banner h3 {
+    font-size: 65px;
+    font-weight: bold;
+}
+.banner button {
+    margin-top: 37px;
+}
